@@ -12,4 +12,4 @@ class Repository {
     suspend fun getDetailsById(id:Int):Response<Details>{
         return RetrofitInstance.api.getDetailsById(id=id)
     }
-} 
+}
